@@ -1,0 +1,29 @@
+{
+	"name": "test_pipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "set variable",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "country",
+					"value": "india"
+				}
+			}
+		],
+		"variables": {
+			"country": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2024-01-04T18:00:44Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

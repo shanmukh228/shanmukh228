@@ -1,0 +1,9 @@
+{
+	"name": "adf-shanmukh-demo",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "514905d9-bc4f-4778-8b02-ff0180063d2c",
+		"tenantId": "fd4a983a-7713-4aae-8c12-629983f1fe91"
+	}
+}
